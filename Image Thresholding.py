@@ -1,6 +1,6 @@
 #To make images clearer and easier to read
 
-# import cv2 as cv
+import cv2 as cv
 # import numpy as np
 
 img = cv.imread('/home/chirag/Desktop/Computer Vision/source/book_page.png')
