@@ -11,7 +11,7 @@ while True:
     laplacian = np.uint8(laplacian)            # Convert float output in the int range of 0-255
     cv.imshow('Laplacian', laplacian)          # Display the Laplacian output
 
-    edges = cv.Canny(frame, 30, 30)          # Canny edge detection
+    edges = cv.Canny(frame, 30, 30)            # Canny edge detection
     cv.imshow('Canny', edges)                  # Display the Canny output
 
     if cv.waitKey(5) == ord('1'):
