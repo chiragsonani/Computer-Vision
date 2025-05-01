@@ -13,3 +13,8 @@
 
 - script uses captured image of Book Page as an input to make the text clear and readable by using static threshold or adaptive gaussian threshold.
   
+**4.Text Extraction**
+
+- script uses OCR to extract text from image
+- using pytesseract we can highlight individual char or words.
+- certain threshold can be set to show only such boxes with high confidence
